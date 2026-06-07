@@ -1,0 +1,47 @@
+# Xcode User Data
+xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+
+# Xcode Build Artifacts
+DerivedData/
+build/
+*.Sublime-workspace
+*.o
+*.pyc
+*.bak
+*.clog
+
+# Package Support
+.build/
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Security & Credentials
+*.provisionprofile
+*.signingkeys
+*.p12
+.env
+.env.*
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon	
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotbackup
+
+# External Editors / IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
