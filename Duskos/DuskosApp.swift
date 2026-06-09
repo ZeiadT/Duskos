@@ -1,17 +1,13 @@
-//
-//  DuskosApp.swift
-//  Duskos
-//
-//  Created by Zeiad Mohammed on 06/06/2026.
-//
-
 import SwiftUI
 
 @main
-struct DuskosApp: App {
+struct WeatherCastApp: App {
+    @StateObject private var viewModel = WeatherViewModel()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
         }
     }
 }
