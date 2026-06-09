@@ -40,4 +40,9 @@ class WeatherViewModel: ObservableObject {
         isLoading = true
         client.fetchWeather(lat: lat, lon: lon, onError: onError, onSuccess: onSuccess)
     }
+
+    var isMorning: Bool {
+        let hour = Calendar.current.component(.hour, from: Date())
+        return hour >= 5 && hour < 18
+    }
 }
