@@ -285,10 +285,6 @@ git push origin feature/your-feature-name
 - 🔐 Secure API key management
 - ⭐ Weather alerts and warnings
 
-## License
-
-[Add your license here]
-
 ## Author
 
 **Zeiad Mohammed**
