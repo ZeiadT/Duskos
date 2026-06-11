@@ -113,6 +113,7 @@
 				AFAA001D2FD6000F005C2529 /* Component */,
 				AFAA001E2FD60010005C2529 /* Home */,
 				AFAA001F2FD60011005C2529 /* Forecast */,
+				AFAA00202FD60012005C2529 /* Search */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +151,23 @@
 				AFAA000A2FD60005005C2529 /* ForecastSection.swift */,
 				AFAA000C2FD60006005C2529 /* ForecastRowView.swift */,
 				AFAA000E2FD60007005C2529 /* StatCard.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		AFAA001F2FD60011005C2529 /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				AFAA00022FD60001005C2529 /* Forecast.swift */,
+				AFAA00222FD60014005C2529 /* Component */,
+			);
+			path = Forecast;
+			sourceTree = "<group>";
+		};
+		AFAA00222FD60014005C2529 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				AFAA00102FD60008005C2529 /* HourRow.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
